@@ -1,0 +1,6 @@
+site: nhsd
+group: nhsd
+project: nhsd
+module:
+  name: nhsd-repository-data-site-development
+  after: nhsd-repository-data-site

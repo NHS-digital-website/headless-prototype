@@ -1,0 +1,32 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/nhsd:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        nhsd:content: Inhalt
+        nhsd:image: Abbildung
+        nhsd:link: Link
+        nhsd:title: Titel
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        nhsd:content: Content
+        nhsd:image: Image
+        nhsd:link: Link
+        nhsd:title: Title
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        nhsd:content: Contenu
+        nhsd:image: Image
+        nhsd:link: Lien
+        nhsd:title: Titre
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        nhsd:content: Inhoud
+        nhsd:image: Afbeelding
+        nhsd:link: Link
+        nhsd:title: Titel

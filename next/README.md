@@ -1,0 +1,37 @@
+# Next.js SSR SPA
+
+Example Next.js SPA using the Bloomreach Experience [React SDK](https://www.npmjs.com/package/@bloomreach/react-sdk).  The app uses
+unversal framework [Next.js](https://github.com/zeit/next.js) for creating
+isomorphic React applications.
+
+## Install and run
+
+This example is part of a monorepo and other packages will have to be build in order for this example to run. Read more
+in the [root README](../../README.md#development) on how to install, build and run the examples.
+
+
+## Available scripts
+
+In the project directory, you can run:
+
+### `pnpm run dev`
+
+Runs the app in the development mode. Open <http://localhost:3000> to view
+it in the browser.
+
+The page will reload if you make edits. You will also see any lint errors in the
+console.
+
+### `pnpm run build`
+
+Builds the app for production to the `build` folder. It correctly bundles React
+in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes. Your app is ready
+to be deployed!
+
+### `pnpm run start`
+
+Runs the app in the production mode. This will start an express server to serve
+the app from the `build` folder. This requires the app to have been build first
+by running `pnpm run build`.

@@ -1,0 +1,110 @@
+/content/documents/channelb/cards-collection:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 86434903-e5d5-45b0-9a08-3c63fd1d6988
+  hippo:name: Cards collection
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippostd:hasfolders: false
+  hippotranslation:id: ebb506c9-6562-4569-8f0f-6d5ca1a1f223
+  hippotranslation:locale: en
+  /homepage-collection:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 99a63418-c271-46f8-989d-c7e2d6c2d847
+    hippo:name: Homepage collection
+    hippo:versionHistory: cc967bd9-c017-4e92-9f41-7f1671bed71c
+    /homepage-collection[1]:
+      jcr:primaryType: nhsd:CardsCollection
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b5c40401-74bb-45d0-9367-a42cfd605153
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-09T11:23:57.384+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:23:57.384+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 26e7e200-57e5-45ac-adf4-1eb067a5dfca
+      hippotranslation:locale: en
+      /nhsd:cards[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 215548f9-ecd1-4d49-b0d3-795a2803268a
+      /nhsd:cards[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 788d2009-202e-4a7c-a4a4-c00e0d9198c2
+      /nhsd:cards[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2ac53f8b-5f2d-42fe-8b23-0ffa95b96aaf
+      /nhsd:cards[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b0b30e8b-20d1-4fc1-827b-3a1d5768da2a
+      /nhsd:cards[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b744b19c-4caa-4c4a-b7e4-bd238f04743f
+      /nhsd:cards[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 99a2037e-b537-4d31-bc5a-104776a8b748
+    /homepage-collection[2]:
+      jcr:primaryType: nhsd:CardsCollection
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 255ac47f-2c3a-49d0-a1b2-e9bc79d51ce9
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-09T11:23:57.384+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:24:20.656+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 26e7e200-57e5-45ac-adf4-1eb067a5dfca
+      hippotranslation:locale: en
+      /nhsd:cards[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 215548f9-ecd1-4d49-b0d3-795a2803268a
+      /nhsd:cards[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 788d2009-202e-4a7c-a4a4-c00e0d9198c2
+      /nhsd:cards[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2ac53f8b-5f2d-42fe-8b23-0ffa95b96aaf
+      /nhsd:cards[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b0b30e8b-20d1-4fc1-827b-3a1d5768da2a
+      /nhsd:cards[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b744b19c-4caa-4c4a-b7e4-bd238f04743f
+      /nhsd:cards[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 99a2037e-b537-4d31-bc5a-104776a8b748
+    /homepage-collection[3]:
+      jcr:primaryType: nhsd:CardsCollection
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d1c1d368-00ec-4f17-97fe-4c972addbe16
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-09T11:23:57.384+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:24:20.656+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-09T11:24:23.302+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: 26e7e200-57e5-45ac-adf4-1eb067a5dfca
+      hippotranslation:locale: en
+      /nhsd:cards[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 215548f9-ecd1-4d49-b0d3-795a2803268a
+      /nhsd:cards[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 788d2009-202e-4a7c-a4a4-c00e0d9198c2
+      /nhsd:cards[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2ac53f8b-5f2d-42fe-8b23-0ffa95b96aaf
+      /nhsd:cards[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b0b30e8b-20d1-4fc1-827b-3a1d5768da2a
+      /nhsd:cards[5]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b744b19c-4caa-4c4a-b7e4-bd238f04743f
+      /nhsd:cards[6]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 99a2037e-b537-4d31-bc5a-104776a8b748

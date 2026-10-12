@@ -1,0 +1,92 @@
+/content/documents/channela/cards-collection:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b372caa2-cec3-4fa8-a9c7-b3405221d6ec
+  hippo:name: Cards collection
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippostd:hasfolders: false
+  hippotranslation:id: c3595b30-17be-4e08-96d3-4dfd585c7c33
+  hippotranslation:locale: en
+  /homepage-collection:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b2ee883d-2881-43a5-9fe5-a8fe9f557468
+    hippo:name: Homepage collection
+    hippo:versionHistory: a4d69d7e-f78e-4789-aa9a-e1854c823841
+    /homepage-collection[1]:
+      jcr:primaryType: nhsd:CardsCollection
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3e86289c-491b-48ec-9dcf-47680e379670
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-09T11:23:26.934+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:23:26.935+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7187d3ce-934d-414a-a4b2-c4d56d4394a3
+      hippotranslation:locale: en
+      /nhsd:cards[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 22a80007-8c73-4ee4-a469-725eb263f39e
+      /nhsd:cards[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 100a9563-6b44-4397-bdf6-4c4ba25c3925
+      /nhsd:cards[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 22a80007-8c73-4ee4-a469-725eb263f39e
+      /nhsd:cards[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 100a9563-6b44-4397-bdf6-4c4ba25c3925
+    /homepage-collection[2]:
+      jcr:primaryType: nhsd:CardsCollection
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 593c30ef-6b89-4901-b185-32ca6944d002
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-09T11:23:26.934+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:23:44.980+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7187d3ce-934d-414a-a4b2-c4d56d4394a3
+      hippotranslation:locale: en
+      /nhsd:cards[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 22a80007-8c73-4ee4-a469-725eb263f39e
+      /nhsd:cards[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 100a9563-6b44-4397-bdf6-4c4ba25c3925
+      /nhsd:cards[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 22a80007-8c73-4ee4-a469-725eb263f39e
+      /nhsd:cards[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 100a9563-6b44-4397-bdf6-4c4ba25c3925
+    /homepage-collection[3]:
+      jcr:primaryType: nhsd:CardsCollection
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8d02e6ca-0792-4848-bd9d-68cc0977e292
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-09T11:23:26.934+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:23:44.980+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-09T11:23:47.868+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: 7187d3ce-934d-414a-a4b2-c4d56d4394a3
+      hippotranslation:locale: en
+      /nhsd:cards[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 22a80007-8c73-4ee4-a469-725eb263f39e
+      /nhsd:cards[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 100a9563-6b44-4397-bdf6-4c4ba25c3925
+      /nhsd:cards[3]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 22a80007-8c73-4ee4-a469-725eb263f39e
+      /nhsd:cards[4]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 100a9563-6b44-4397-bdf6-4c4ba25c3925

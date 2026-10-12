@@ -1,0 +1,343 @@
+/content/documents/channela/blogs:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 11e04e6c-23a1-4570-8ed1-31e7fab048a5
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippostd:hasfolders: true
+  hippotranslation:id: 45918b0a-3e40-4551-95ee-7f82250ca160
+  hippotranslation:locale: en
+  /2026:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 02d0e3cf-61df-4a89-ad79-213b65f52e7c
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippostd:hasfolders: true
+    hippotranslation:id: 005f9d52-878e-4703-bd3a-28dd76940e04
+    hippotranslation:locale: en
+    /10:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: d0f99a41-47a4-4ee4-924f-8e5f07adab52
+      hippo:name: '10'
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippostd:hasfolders: false
+      hippotranslation:id: 02d9e1aa-0633-4047-bafb-0ae5b885cbe2
+      hippotranslation:locale: en
+      /blog-1:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: d40b0307-f613-4c6b-aea5-0ddcbcb63c06
+        hippo:name: Blog 1
+        hippo:versionHistory: 3dc47d64-1d7e-473e-b359-58124da74ad8
+        /blog-1[1]:
+          jcr:primaryType: nhsd:Blog
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f766660e-a15e-4186-b999-eea02ad78b9f
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostd:transferable: false
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2026-10-08T17:04:20.965+01:00
+          hippostdpubwf:lastModificationDate: 2026-10-12T11:27:29.562+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e043f7c5-c95f-4337-a379-6f2292023356
+          hippotranslation:locale: en
+          nhsd:date: 2026-10-08T17:04:00+01:00
+          /nhsd:Hero:
+            jcr:primaryType: nhsd:Hero
+            nhsd:title: Blog 1
+            /nhsd:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /nhsd:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            /nhsd:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <p>This is a short description</p>
+          /nhsd:introduction:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>This is our blogs introduction</p>
+          /nhsd:content[1]:
+            jcr:primaryType: nhsd:LinkList
+            nhsd:style: actionslinks
+            /nhsd:links:
+              jcr:primaryType: nhsd:CustomLink
+              nhsd:label: First link
+              /nhsd:link:
+                jcr:primaryType: hippo:mirror
+                hippo:docbase: f6118d24-bf3d-435d-bef6-a64e5359c356
+          /nhsd:content[2]:
+            jcr:primaryType: nhsd:Notification
+            nhsd:style: warning
+            nhsd:title: This is a notification
+            /nhsd:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h2>The heading&nbsp;</h2>
+
+                <p>Some normal text&nbsp;</p>
+
+                <ul>
+                 <li><a href="blog-2">item 1</a></li>
+                 <li><a href="landing">item 2</a></li>
+                </ul>
+              /blog-2:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: 18cc8d19-e324-4088-b244-b091b2b8fc24
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+              /landing:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: f6118d24-bf3d-435d-bef6-a64e5359c356
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+        /blog-1[2]:
+          jcr:primaryType: nhsd:Blog
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 111a5022-4608-4a1a-97bd-4e3aadd754b2
+          hippo:availability: [preview]
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2026-10-08T17:04:20.965+01:00
+          hippostdpubwf:lastModificationDate: 2026-10-09T15:14:45.256+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e043f7c5-c95f-4337-a379-6f2292023356
+          hippotranslation:locale: en
+          nhsd:date: 2026-10-08T17:04:00+01:00
+          /nhsd:Hero:
+            jcr:primaryType: nhsd:Hero
+            nhsd:title: Blog 1
+            /nhsd:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /nhsd:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            /nhsd:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <p>This is a short description</p>
+          /nhsd:introduction:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>This is our blogs introduction</p>
+          /nhsd:content[1]:
+            jcr:primaryType: nhsd:LinkList
+            nhsd:style: actionslinks
+            /nhsd:links:
+              jcr:primaryType: nhsd:CustomLink
+              nhsd:label: First link
+              /nhsd:link:
+                jcr:primaryType: hippo:mirror
+                hippo:docbase: f6118d24-bf3d-435d-bef6-a64e5359c356
+          /nhsd:content[2]:
+            jcr:primaryType: nhsd:Notification
+            nhsd:style: default
+            nhsd:title: This is a notification
+            /nhsd:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h2>The heading&nbsp;</h2>
+
+                <p>Some normal text&nbsp;</p>
+
+                <ul>
+                 <li><a href="blog-2">item 1</a></li>
+                 <li><a href="landing">item 2</a></li>
+                </ul>
+              /blog-2:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: 18cc8d19-e324-4088-b244-b091b2b8fc24
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+              /landing:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: f6118d24-bf3d-435d-bef6-a64e5359c356
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+        /blog-1[3]:
+          jcr:primaryType: nhsd:Blog
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 28517eb7-1772-4ce9-bf1d-f502936063fd
+          hippo:availability: [live]
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2026-10-08T17:04:20.965+01:00
+          hippostdpubwf:lastModificationDate: 2026-10-09T15:14:45.256+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2026-10-09T15:14:54.557+01:00
+          hippostdpubwf:publishedBy: admin
+          hippotranslation:id: e043f7c5-c95f-4337-a379-6f2292023356
+          hippotranslation:locale: en
+          nhsd:date: 2026-10-08T17:04:00+01:00
+          /nhsd:Hero:
+            jcr:primaryType: nhsd:Hero
+            nhsd:title: Blog 1
+            /nhsd:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /nhsd:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            /nhsd:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <p>This is a short description</p>
+          /nhsd:introduction:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>This is our blogs introduction</p>
+          /nhsd:content[1]:
+            jcr:primaryType: nhsd:LinkList
+            nhsd:style: actionslinks
+            /nhsd:links:
+              jcr:primaryType: nhsd:CustomLink
+              nhsd:label: First link
+              /nhsd:link:
+                jcr:primaryType: hippo:mirror
+                hippo:docbase: f6118d24-bf3d-435d-bef6-a64e5359c356
+          /nhsd:content[2]:
+            jcr:primaryType: nhsd:Notification
+            nhsd:style: default
+            nhsd:title: This is a notification
+            /nhsd:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h2>The heading&nbsp;</h2>
+
+                <p>Some normal text&nbsp;</p>
+
+                <ul>
+                 <li><a href="blog-2">item 1</a></li>
+                 <li><a href="landing">item 2</a></li>
+                </ul>
+              /blog-2:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: 18cc8d19-e324-4088-b244-b091b2b8fc24
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+              /landing:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: f6118d24-bf3d-435d-bef6-a64e5359c356
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+      /blog-2:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 18cc8d19-e324-4088-b244-b091b2b8fc24
+        hippo:name: Blog 2
+        hippo:versionHistory: 0d45f05c-b65e-4818-b6e5-5c672dc5e4eb
+        /blog-2[1]:
+          jcr:primaryType: nhsd:Blog
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 98c1c3e2-8072-45d7-b31f-a7b7486d91ba
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostd:transferable: false
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2026-10-08T17:04:39.227+01:00
+          hippostdpubwf:lastModificationDate: 2026-10-09T11:57:57.310+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 4fae9002-3a07-4da6-83a8-028d69a27a4e
+          hippotranslation:locale: en
+          nhsd:date: 2026-10-08T17:04:00+01:00
+          /nhsd:Hero:
+            jcr:primaryType: nhsd:Hero
+            nhsd:title: Blog 2
+            /nhsd:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /nhsd:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            /nhsd:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <p>This is another short description</p>
+          /nhsd:introduction:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>This is Blogs 2 intro&nbsp;</p>
+        /blog-2[2]:
+          jcr:primaryType: nhsd:Blog
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 29e6d5c1-25f4-48af-869a-5b28d994f6b8
+          hippo:availability: [preview]
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2026-10-08T17:04:39.227+01:00
+          hippostdpubwf:lastModificationDate: 2026-10-09T11:54:05.944+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 4fae9002-3a07-4da6-83a8-028d69a27a4e
+          hippotranslation:locale: en
+          nhsd:date: 2026-10-08T17:04:00+01:00
+          /nhsd:Hero:
+            jcr:primaryType: nhsd:Hero
+            nhsd:title: Blog 2
+            /nhsd:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /nhsd:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            /nhsd:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <p>This is another short description</p>
+          /nhsd:introduction:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>This is Blogs 2 intro&nbsp;</p>
+        /blog-2[3]:
+          jcr:primaryType: nhsd:Blog
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7562c711-f7bc-44af-9408-260fb2fd6f32
+          hippo:availability: [live]
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2026-10-08T17:04:39.227+01:00
+          hippostdpubwf:lastModificationDate: 2026-10-09T11:54:05.944+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2026-10-09T11:54:08.612+01:00
+          hippostdpubwf:publishedBy: admin
+          hippotranslation:id: 4fae9002-3a07-4da6-83a8-028d69a27a4e
+          hippotranslation:locale: en
+          nhsd:date: 2026-10-08T17:04:00+01:00
+          /nhsd:Hero:
+            jcr:primaryType: nhsd:Hero
+            nhsd:title: Blog 2
+            /nhsd:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /nhsd:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            /nhsd:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <p>This is another short description</p>
+          /nhsd:introduction:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>This is Blogs 2 intro&nbsp;</p>

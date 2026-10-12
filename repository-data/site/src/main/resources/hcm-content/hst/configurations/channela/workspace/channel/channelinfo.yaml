@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/channela/hst:workspace/hst:channel/hst:channelinfo:
+  jcr:primaryType: hst:channelinfo
+  color: blue
+  logo: /content/gallery/nhsd/banners/banner-1.jpg
+  org.hippoecm.hst.configuration.channel.PreviewURLChannelInfo_url: http://localhost:3003/channelA
+  pageTitlePrefix: Channel A
+  themeCss: /content/assets/themes/css/green.css

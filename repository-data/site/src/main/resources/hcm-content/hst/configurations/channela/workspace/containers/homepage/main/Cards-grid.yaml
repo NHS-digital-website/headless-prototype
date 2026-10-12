@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/channela/hst:workspace/hst:containers/homepage/main/Cards grid:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentdefinition: hst:components/nhsd-catalog/Cards grid
+  hst:parameternames: [document4, document3, document, document2, style]
+  hst:parametervalues: [banners/banner2, banners/banner1, cards-collection/homepage-collection,
+    banners/banner2, one-half]

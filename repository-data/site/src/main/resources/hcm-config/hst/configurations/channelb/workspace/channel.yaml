@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/channelb/hst:workspace/hst:channel:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:channel
+      hst:name: Channel B
+      hst:type: website
+      hst:channelinfoclass: org.example.channels.WebsiteInfo
+      hst:localnetworkaccessenabled: false
+      hst:lastmodifiedby: admin
+      hst:defaultdevice: default
+      hst:deferpreviewload: false
+      hst:devices: []
+      hst:lastmodified: 2026-10-09T11:14:02.761+01:00

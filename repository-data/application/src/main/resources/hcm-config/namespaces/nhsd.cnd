@@ -1,0 +1,30 @@
+<'nhsd'='http://www.nhsd.com/nhsd/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+
+[nhsd:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[nhsd:Blog] > hippostd:relaxed, hippotranslation:translated, nhsd:basedocument
+  orderable
+
+[nhsd:CardsCollection] > hippostd:relaxed, hippotranslation:translated, nhsd:basedocument
+  orderable
+
+[nhsd:CustomLink] > hippo:compound, hippostd:relaxed
+  orderable
+
+[nhsd:Hero] > hippo:compound, hippostd:relaxed
+  orderable
+
+[nhsd:LinkList] > hippo:compound, hippostd:relaxed
+  orderable
+
+[nhsd:Notification] > hippo:compound, hippostd:relaxed
+  orderable
+
+[nhsd:bannerdocument] > hippostd:relaxed, hippotranslation:translated, nhsd:basedocument
+  orderable
+

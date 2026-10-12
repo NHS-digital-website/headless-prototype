@@ -1,0 +1,8 @@
+/content/gallery/nhsd:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 7b4a9171-691b-4693-bd66-1b5c1516cdad
+  hippo:name: nhsd
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  hippostd:hasfolders: true

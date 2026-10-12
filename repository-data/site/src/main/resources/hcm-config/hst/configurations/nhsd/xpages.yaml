@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/nhsd/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /one-column:
+        jcr:primaryType: hst:xpage
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:component
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+          /container:
+            jcr:primaryType: hst:containercomponent
+            hippo:identifier: 7d8529b5-c8f7-4f9f-b5d2-59f2bc9502de

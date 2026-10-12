@@ -1,0 +1,25 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/channela/hst:workspace:
+      jcr:primaryType: hst:workspace
+      /hst:containers:
+        jcr:primaryType: hst:containercomponentfolder
+        /homepage:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hippo:identifier: 71c73f96-d5d0-4521-b519-0177136079c0
+            hst:xtype: hst.vbox
+            hst:label: Home Page Main
+            hst:lastmodified: 2026-10-09T11:28:40.416+01:00
+      /hst:sitemenus:
+        jcr:primaryType: hst:sitemenus
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:sitemenu
+          hst:lastmodified: 2026-10-08T17:15:08.038+01:00
+        /footer:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:sitemenu
+          hst:lastmodified: 2026-10-08T16:39:46.055+01:00

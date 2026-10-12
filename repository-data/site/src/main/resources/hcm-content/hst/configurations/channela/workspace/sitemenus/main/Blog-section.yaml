@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/channela/hst:workspace/hst:sitemenus/main/Blog section:
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: blogs
+  hst:repobased: false

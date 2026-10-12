@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/channela/hst:workspace/hst:sitemenus/main/Landing page:
+  .meta:order-before: Blog section
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: xpages/landing
+  hst:repobased: false

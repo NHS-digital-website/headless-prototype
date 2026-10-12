@@ -1,0 +1,9 @@
+/content/documents/channela:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 08312378-f96b-4272-8637-95b1c04f9ed0
+  hippo:name: Channel A
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippostd:hasfolders: true
+  hippotranslation:id: 69f35507-fdcf-4607-b38c-a120e360fc0e
+  hippotranslation:locale: en

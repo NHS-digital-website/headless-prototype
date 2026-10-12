@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /content/documents:
+      hippostd:hasfolders: true

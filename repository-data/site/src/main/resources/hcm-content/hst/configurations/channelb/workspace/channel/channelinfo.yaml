@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/channelb/hst:workspace/hst:channel/hst:channelinfo:
+  jcr:primaryType: hst:channelinfo
+  color: blue
+  logo: ''
+  org.hippoecm.hst.configuration.channel.PreviewURLChannelInfo_url: http://localhost:3003/channelB
+  pageTitlePrefix: North West School of Psychiatry
+  themeCss: ''

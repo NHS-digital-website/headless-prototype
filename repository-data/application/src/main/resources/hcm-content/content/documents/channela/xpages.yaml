@@ -1,0 +1,135 @@
+/content/documents/channela/xpages:
+  .meta:order-before: blogs
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b3a89bea-0e46-4f5c-aebf-a50b4b3704a5
+  hippostd:channelid: channela
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippostd:hasfolders: false
+  hippotranslation:id: 2d6c2526-b489-4768-ad1b-f236f53685d7
+  hippotranslation:locale: en
+  /landing:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: f6118d24-bf3d-435d-bef6-a64e5359c356
+    hippo:versionHistory: 94a1b76e-73f2-49b7-9a63-eb3a44473085
+    /landing[1]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 2815189f-5bee-4d94-bb12-cce044c8cd88
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-08T17:51:58.416+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-12T11:26:15.766+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6cddea6c-6e4d-4e50-a413-0f1a28c31a2e
+      hippotranslation:locale: en
+      nhsd:title: Landing page
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is a simple landing page</p>
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /landing[2]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: af880939-4b92-4e00-b323-7ccdfd911102
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-08T17:51:58.416+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-08T17:53:48.398+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6cddea6c-6e4d-4e50-a413-0f1a28c31a2e
+      hippotranslation:locale: en
+      nhsd:title: Landing page
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is a simple landing page</p>
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 6771f04d-eb35-459f-aa41-80b40e16de2a
+        hst:pageref: one-column
+        /7d8529b5-c8f7-4f9f-b5d2-59f2bc9502de:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 07565b95-15a3-42be-bdd7-55a71be5c8f9
+          hippo:identifier: 08725f54-8af3-4dcd-888b-7de402dfd70a
+          hst:lastmodified: 2026-10-08T16:53:48.398Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 05a1c0e7-1ad1-43dc-9910-4502c7aac6d5
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+    /landing[3]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: c7e03959-cbf7-4c15-b172-e930497abb0f
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-08T17:51:58.416+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-08T17:53:48.398+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-08T17:53:52.744+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: 6cddea6c-6e4d-4e50-a413-0f1a28c31a2e
+      hippotranslation:locale: en
+      nhsd:title: Landing page
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is a simple landing page</p>
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 687f2398-a69b-4288-a042-a0b1e90758de
+        hst:pageref: one-column
+        /7d8529b5-c8f7-4f9f-b5d2-59f2bc9502de:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 4bce77d0-5d9b-471a-b1ec-08a90d4b3555
+          hippo:identifier: 08725f54-8af3-4dcd-888b-7de402dfd70a
+          hst:lastmodified: 2026-10-08T16:53:48.398Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: a0a80a39-3e56-4d41-881b-229006176637
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner

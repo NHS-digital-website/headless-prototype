@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    nhsd:
+      uri: http://www.nhsd.com/nhsd/nt/1.0
+      cnd: namespaces/nhsd.cnd

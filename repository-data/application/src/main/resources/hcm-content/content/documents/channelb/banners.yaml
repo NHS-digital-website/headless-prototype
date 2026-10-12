@@ -1,0 +1,525 @@
+/content/documents/channelb/banners:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 302f27ea-9e88-4ede-a73e-dc874fd62538
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippostd:hasfolders: false
+  hippotranslation:id: c75ba002-2796-4372-9fef-bfeb07676d4c
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 215548f9-ecd1-4d49-b0d3-795a2803268a
+    hippo:versionHistory: cc29d503-2a95-443e-af16-215b8829a115
+    /banner1[1]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4242e048-275d-4dfc-889e-82bcef6b643c
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:17:22.741+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-09T11:17:26.244+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: 42f05585-1bf6-4784-86e4-357ba8cdcd36
+      hippotranslation:locale: en
+      nhsd:title: Learn more about the School
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner1[2]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 93af06a4-e418-42dd-88fd-2b531cddaa70
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:17:22.741+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 42f05585-1bf6-4784-86e4-357ba8cdcd36
+      hippotranslation:locale: en
+      nhsd:title: Learn more about the School
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner1[3]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 445466d8-4808-44dd-a4fc-32ecbbb7b1a4
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:17:10.705+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 42f05585-1bf6-4784-86e4-357ba8cdcd36
+      hippotranslation:locale: en
+      nhsd:title: Learn more about the School
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 788d2009-202e-4a7c-a4a4-c00e0d9198c2
+    hippo:name: banner2
+    hippo:versionHistory: 2ff1187a-ad28-4970-b81a-06db83a84974
+    /banner2[1]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ef855bbb-6168-4657-8f19-89e617e1dff6
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:17:37.409+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-09T11:17:40.007+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: 65927aac-dcfc-49a1-997b-a22770152380
+      hippotranslation:locale: en
+      nhsd:title: Considering a career in psychiatry in the North West?
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner2[2]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 5f22e9e1-6b76-48cc-9784-777364167e9f
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:17:37.409+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 65927aac-dcfc-49a1-997b-a22770152380
+      hippotranslation:locale: en
+      nhsd:title: Considering a career in psychiatry in the North West?
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner2[3]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9c74076e-99d9-4c73-b604-85cc54dbbc37
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:17:28.007+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 65927aac-dcfc-49a1-997b-a22770152380
+      hippotranslation:locale: en
+      nhsd:title: Considering a career in psychiatry in the North West?
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2ac53f8b-5f2d-42fe-8b23-0ffa95b96aaf
+    hippo:name: banner3
+    hippo:versionHistory: 3c24b5be-06f4-4d4b-aec6-8f479e236849
+    /banner3[1]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 3efe0e7f-9685-4bc5-95ee-b09ac3e50b91
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:22.202+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f5a8c780-be8c-4151-881c-adb6c9d1e048
+      hippotranslation:locale: en
+      nhsd:title: Core Psychiatry Course
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner3[2]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3a3b28a5-c15c-4daf-a330-f4d159cf82b8
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:20.229+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f5a8c780-be8c-4151-881c-adb6c9d1e048
+      hippotranslation:locale: en
+      nhsd:title: Core Psychiatry Course
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner3[3]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d3f6cb09-5886-48ec-ba80-394ec2cd2893
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:22.202+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-09T11:18:24.730+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: f5a8c780-be8c-4151-881c-adb6c9d1e048
+      hippotranslation:locale: en
+      nhsd:title: Core Psychiatry Course
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner4:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b0b30e8b-20d1-4fc1-827b-3a1d5768da2a
+    hippo:name: banner4
+    hippo:versionHistory: 2208ed08-a2af-4631-bb91-7424199205f8
+    /banner4[1]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 3e6df0f1-ba2c-4287-8c79-fe606aa48d1c
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:32.911+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d00bebe7-af3c-443e-a76b-ff4b7e5ae144
+      hippotranslation:locale: en
+      nhsd:title: Study leave requests
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner4[2]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3cefa9c1-79fb-4ee8-8928-62b2dd466eb6
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:30.655+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d00bebe7-af3c-443e-a76b-ff4b7e5ae144
+      hippotranslation:locale: en
+      nhsd:title: Study leave requests
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner4[3]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f4fb1c30-22d9-4115-9016-12a6aab3e7dc
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:32.911+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-09T11:18:53.440+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: d00bebe7-af3c-443e-a76b-ff4b7e5ae144
+      hippotranslation:locale: en
+      nhsd:title: Study leave requests
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner5:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b744b19c-4caa-4c4a-b7e4-bd238f04743f
+    hippo:name: banner5
+    hippo:versionHistory: 6bb9e22d-7903-4518-a499-5feca88ccfe6
+    /banner5[1]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: bbef963d-f4e8-4339-aa63-c5d2b3257f78
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:41.357+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 15480147-454f-4e32-9251-7d90008bfdd2
+      hippotranslation:locale: en
+      nhsd:title: Resources for trainers
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner5[2]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9e47c534-7cb8-416d-9ec5-216dd3a00940
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:38.598+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 15480147-454f-4e32-9251-7d90008bfdd2
+      hippotranslation:locale: en
+      nhsd:title: Resources for trainers
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner5[3]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7e846c0f-1191-4508-a2f8-01293a95cd4b
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:41.357+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-09T11:18:53.472+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: 15480147-454f-4e32-9251-7d90008bfdd2
+      hippotranslation:locale: en
+      nhsd:title: Resources for trainers
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner6:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 99a2037e-b537-4d31-bc5a-104776a8b748
+    hippo:name: banner6
+    hippo:versionHistory: 1238210e-b8eb-4139-b536-1a5ff51bebc2
+    /banner6[1]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: a79d6438-fb29-4425-bd3f-e6c7a9ce7f9a
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:48.783+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 50e935cc-17e0-4edb-a2f1-21b2114adfb9
+      hippotranslation:locale: en
+      nhsd:title: Contact the School
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner6[2]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f235b13c-a3bf-4c5d-a2ea-3fd25a223af2
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:47.241+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 50e935cc-17e0-4edb-a2f1-21b2114adfb9
+      hippotranslation:locale: en
+      nhsd:title: Contact the School
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner6[3]:
+      jcr:primaryType: nhsd:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 18d1145f-7e2f-407b-a69a-d63b1ee01b0f
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-09T11:18:48.783+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-09T11:18:53.503+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: 50e935cc-17e0-4edb-a2f1-21b2114adfb9
+      hippotranslation:locale: en
+      nhsd:title: Contact the School
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

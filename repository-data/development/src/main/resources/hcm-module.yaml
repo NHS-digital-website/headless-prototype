@@ -1,0 +1,7 @@
+group: 
+  name: nhsd
+  after: hippo-cms
+project: nhsd
+module: 
+  name: nhsd-repository-data-development
+  after: nhsd-repository-data-application

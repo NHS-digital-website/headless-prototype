@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/channelb/hst:workspace/hst:sitemenus/footer/Home:
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: root
+  hst:repobased: false

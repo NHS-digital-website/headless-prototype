@@ -1,0 +1,25 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/nhsd/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /nhsd-catalog:
+        jcr:primaryType: hst:containeritempackage
+        /Cards grid:
+          jcr:primaryType: hst:componentdefinition
+          hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
+          hst:ctype: CardsGrid
+          hst:label: Cards Grid
+          /document:
+            jcr:primaryType: hst:dynamicparameter
+            hst:valuetype: text
+            hst:required: true
+            /hst:fieldconfig:
+              jcr:primaryType: hst:jcrpath
+              hst:pickerconfiguration: cms-pickers/documents-only
+              hst:relative: true
+          /style:
+            jcr:primaryType: hst:dynamicparameter
+            hst:required: true
+            /hst:fieldconfig:
+              jcr:primaryType: hst:dropdown
+              hst:value: [full, three-quarters, one-half, two-thirds, one-third, one-quarter]

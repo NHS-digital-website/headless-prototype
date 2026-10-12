@@ -1,0 +1,21 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/nhsd/hst:workspace/hst:containers:
+      jcr:primaryType: hst:containercomponentfolder
+      /homepage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: f7e78809-a6d3-40ee-90ef-96e56df6376c
+          hst:label: Home Page Main
+          hst:xtype: hst.vbox
+          hst:lastmodified: 2026-10-08T12:26:08.766+01:00
+      /pagenotfound:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: ea6c6894-e0d5-45f7-b584-4af87c73ad87
+          hst:label: Page-Not-Found Main
+          hst:xtype: hst.vbox
