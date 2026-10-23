@@ -12,6 +12,21 @@
   <description>nhsd CMS Dependencies</description>
   <dependencies>
 
+    <!--Content EXIM-->
+    <dependency>
+      <groupId>org.onehippo.forge.content-exim</groupId>
+      <artifactId>content-exim-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.forge.content-exim</groupId>
+      <artifactId>content-exim-repository-jaxrs</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.forge.content-exim</groupId>
+      <artifactId>content-exim-updater-examples</artifactId>
+    </dependency>
+    <!--Content EXIM-->
+
     <dependency>
       <groupId>org.example</groupId>
       <artifactId>nhsd-repository-data-application</artifactId>

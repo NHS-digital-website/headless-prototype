@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/channela/hst:workspace/hst:sitemenus/main/Imported Pages:
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: pages
+  hst:repobased: false

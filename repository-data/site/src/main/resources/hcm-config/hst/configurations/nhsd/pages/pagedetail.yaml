@@ -1,0 +1,10 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/nhsd/hst:pages/pagedetail:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        /pagedetail:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent

@@ -1,0 +1,125 @@
+{
+  "name": "page-example",
+  "primaryType": "nhsd:Page",
+  "mixinTypes": [
+    "mix:referenceable"
+  ],
+  "properties": [
+    {
+      "name": "hippotranslation:locale",
+      "type": "STRING",
+      "multiple": false,
+      "values": [
+        "en"
+      ]
+    },
+    {
+      "name": "nhsd:title",
+      "type": "STRING",
+      "multiple": false,
+      "values": [
+        "Page example"
+      ]
+    },
+    {
+      "name": "nhsd:date",
+      "type": "DATE",
+      "multiple": false,
+      "values": [
+        "2026-10-23T15:30:00.000+01:00"
+      ]
+    },
+    {
+      "name": "hippostd:retainable",
+      "type": "BOOLEAN",
+      "multiple": false,
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "hippo:availability",
+      "type": "STRING",
+      "multiple": true,
+      "values": [
+        "live"
+      ]
+    },
+    {
+      "name": "hippotranslation:id",
+      "type": "STRING",
+      "multiple": false,
+      "values": [
+        "6e0a9886-1a92-4ff1-9bc0-d1b793c2d507"
+      ]
+    },
+    {
+      "name": "jcr:path",
+      "type": "STRING",
+      "multiple": false,
+      "values": [
+        "/content/documents/channela/pages/page-example"
+      ]
+    },
+    {
+      "name": "jcr:localizedName",
+      "type": "STRING",
+      "multiple": false,
+      "values": [
+        "Page example"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "nhsd:image",
+      "primaryType": "hippogallerypicker:imagelink",
+      "mixinTypes": [],
+      "properties": [
+        {
+          "name": "hippo:facets",
+          "type": "STRING",
+          "multiple": true,
+          "values": []
+        },
+        {
+          "name": "hippo:values",
+          "type": "STRING",
+          "multiple": true,
+          "values": []
+        },
+        {
+          "name": "hippo:docbase",
+          "type": "STRING",
+          "multiple": false,
+          "values": [
+            "/content/gallery/nhsd/banners/banner-1.jpg"
+          ]
+        },
+        {
+          "name": "hippo:modes",
+          "type": "STRING",
+          "multiple": true,
+          "values": []
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "nhsd:content",
+      "primaryType": "hippostd:html",
+      "mixinTypes": [],
+      "properties": [
+        {
+          "name": "hippostd:content",
+          "type": "STRING",
+          "multiple": false,
+          "values": [
+            "<p>And some RTF</p>"
+          ]
+        }
+      ],
+      "nodes": []
+    }
+  ]
+}

@@ -32,6 +32,8 @@ import {FooterMenu} from "./FooterMenu";
 import {CardsGrid} from "./CardsGrid";
 import {Blog} from "./Blog";
 import {BlogList} from "./BlogList";
+import {PageList} from "./PageList";
+import {PageDetail} from "./PageDetail";
 
 interface Props {
   configuration: Omit<Configuration, 'httpClient'>;
@@ -41,7 +43,7 @@ interface Props {
 const BrxAppClient = ({configuration, page}: Props) => {
   console.log('Using BrxAppClient');
   
-  const mapping = { Banner, CardsGrid, content: Content, blog: Blog, blogoverview: BlogList};
+  const mapping = { Banner, CardsGrid, content: Content, blog: Blog, blogoverview: BlogList, pagesoverview: PageList, pagedetail: PageDetail};
 
   useRelevance(configuration, page);
 

@@ -1,0 +1,168 @@
+/content/documents/channela/pages:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b663cc2f-20d5-4d96-a6e3-5bcca6a5bebc
+  hippostd:foldertype: [new-Page-document, new-Page-folder]
+  hippostd:hasfolders: false
+  hippotranslation:id: 96a1c174-533d-44a4-b371-9e1213118a01
+  hippotranslation:locale: en
+  /page-example:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: c889df19-33af-4ec9-9e2d-177e2abd8bd4
+    hippo:name: Page example
+    hippo:versionHistory: 9789856d-10df-4233-b770-f66c7bed49a8
+    /page-example[1]:
+      jcr:primaryType: nhsd:Page
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a7177909-9509-4536-a6b0-5468e744538c
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-23T15:30:02.569+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-23T15:30:02.570+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6e0a9886-1a92-4ff1-9bc0-d1b793c2d507
+      hippotranslation:locale: en
+      nhsd:date: 2026-10-23T15:30:00+01:00
+      nhsd:title: Page example
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>And some RTF</p>
+    /page-example[2]:
+      jcr:primaryType: nhsd:Page
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: ba063d0a-1e8a-4f13-b3d7-ad4a263c4336
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-23T15:30:02.569+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-23T15:30:22.963+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6e0a9886-1a92-4ff1-9bc0-d1b793c2d507
+      hippotranslation:locale: en
+      nhsd:date: 2026-10-23T15:30:00+01:00
+      nhsd:title: Page example
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>And some RTF</p>
+    /page-example[3]:
+      jcr:primaryType: nhsd:Page
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 71594dc5-9166-48c3-a122-342cea802f05
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2026-10-23T15:30:02.569+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-23T15:30:22.963+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2026-10-23T15:30:26.010+01:00
+      hippostdpubwf:publishedBy: admin
+      hippotranslation:id: 6e0a9886-1a92-4ff1-9bc0-d1b793c2d507
+      hippotranslation:locale: en
+      nhsd:date: 2026-10-23T15:30:00+01:00
+      nhsd:title: Page example
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>And some RTF</p>
+  /page-example2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 34d1e10b-5ba7-4e06-b1c9-74a72b66ef61
+    hippo:name: Page example
+    hippo:versionHistory: 5cb44301-754f-4409-8631-972620d5c7b3
+    /page-example2[1]:
+      jcr:primaryType: nhsd:Page
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 69bcb387-eed6-4b75-880d-e749cff97c8c
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2026-10-23T16:49:30.337+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-23T16:49:30.339+01:00
+      hippostdpubwf:lastModifiedBy: system
+      hippotranslation:id: 6e0a9886-1a92-4ff1-9bc0-d1b793c2d507
+      hippotranslation:locale: en
+      nhsd:date: 2026-10-23T15:30:00+01:00
+      nhsd:title: Page example 2
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>And some RTF</p>
+    /page-example2[2]:
+      jcr:primaryType: nhsd:Page
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: bc924d13-248e-492f-9e32-6c5354242c4d
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2026-10-23T16:49:30.337+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-23T16:49:31.187+01:00
+      hippostdpubwf:lastModifiedBy: system
+      hippotranslation:id: 6e0a9886-1a92-4ff1-9bc0-d1b793c2d507
+      hippotranslation:locale: en
+      nhsd:date: 2026-10-23T15:30:00+01:00
+      nhsd:title: Page example 2
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>And some RTF</p>
+    /page-example2[3]:
+      jcr:primaryType: nhsd:Page
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cc884af7-8624-49eb-b90b-bcbc1df3ae85
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2026-10-23T16:49:30.337+01:00
+      hippostdpubwf:lastModificationDate: 2026-10-23T16:49:31.187+01:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2026-10-23T16:49:31.276+01:00
+      hippostdpubwf:publishedBy: system
+      hippotranslation:id: 6e0a9886-1a92-4ff1-9bc0-d1b793c2d507
+      hippotranslation:locale: en
+      nhsd:date: 2026-10-23T15:30:00+01:00
+      nhsd:title: Page example 2
+      /nhsd:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /nhsd:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>And some RTF</p>

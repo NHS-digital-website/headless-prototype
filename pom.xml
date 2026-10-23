@@ -63,6 +63,8 @@
 
     <essentials.version>17.3.0</essentials.version>
 
+    <forge.content-exim.version>8.0.0</forge.content-exim.version>
+
     <development-module-deploy-dir>shared/lib</development-module-deploy-dir>
 
     <docker.postgres.bind.1>${project.basedir}/target/postgres-data:/var/lib/postgresql/data</docker.postgres.bind.1>
@@ -93,10 +95,35 @@
       <name>Bloomreach Maven 2 Enterprise</name>
       <url>https://maven.bloomreach.com/repository/maven2-enterprise</url>
     </repository>
+    <repository>
+      <id>bloomreach-maven2-forge</id>
+      <name>Bloomreach Maven 2 Repository</name>
+      <url>https://maven.bloomreach.com/repository/maven2-forge/</url>
+    </repository>
   </repositories>
 
   <dependencyManagement>
     <dependencies>
+
+        <!--Content EXIM-->
+        <dependency>
+          <groupId>org.onehippo.forge.content-exim</groupId>
+          <artifactId>content-exim-core</artifactId>
+          <version>${forge.content-exim.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>org.onehippo.forge.content-exim</groupId>
+          <artifactId>content-exim-repository-jaxrs</artifactId>
+          <version>${forge.content-exim.version}</version>
+        </dependency>
+        <!-- The following is optional: Include this only when you want to bootstrap example groovy updater scripts. -->
+        <dependency>
+          <groupId>org.onehippo.forge.content-exim</groupId>
+          <artifactId>content-exim-updater-examples</artifactId>
+          <version>${forge.content-exim.version}</version>
+        </dependency>
+      <!--Content EXIM-->
+
       <dependency>
         <groupId>jakarta.servlet.jsp</groupId>
         <artifactId>jakarta.servlet.jsp-api</artifactId>

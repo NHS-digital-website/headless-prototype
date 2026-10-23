@@ -25,6 +25,9 @@
 [nhsd:Notification] > hippo:compound, hippostd:relaxed
   orderable
 
+[nhsd:Page] > hippostd:relaxed, hippotranslation:translated, nhsd:basedocument
+  orderable
+
 [nhsd:bannerdocument] > hippostd:relaxed, hippotranslation:translated, nhsd:basedocument
   orderable
 

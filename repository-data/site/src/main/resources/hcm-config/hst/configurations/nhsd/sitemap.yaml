@@ -30,3 +30,11 @@ definitions:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/blogdetail
           hst:relativecontentpath: ${parent}/${1}
+      /pages:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagesoverview
+        hst:relativecontentpath: pages
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/pagedetail
+          hst:relativecontentpath: ${parent}/${1}

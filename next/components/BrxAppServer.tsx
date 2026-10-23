@@ -29,6 +29,8 @@ import {FooterMenu} from "./FooterMenu";
 import {CardsGrid} from "./CardsGrid";
 import {Blog} from "./Blog";
 import {BlogList} from "./BlogList";
+import {PageList} from "./PageList";
+import {PageDetail} from "./PageDetail";
 
 interface Props {
   configuration: Omit<Configuration, 'httpClient'>;
@@ -38,7 +40,7 @@ interface Props {
 const BrxAppServer = async ({configuration, page}: Props) => {
   console.log('Using BrxAppServer');
 
-  const mapping = { Banner, CardsGrid, content: Content, blog: Blog, blogoverview: BlogList };
+  const mapping = { Banner, CardsGrid, content: Content, blog: Blog, blogoverview: BlogList, pagesoverview: PageList, pagedetail: PageDetail };
 
   return <BrPageServer configuration={{ ...configuration, httpClient: axios }} mapping={mapping} page={page}>
     {({ page: contextPage, mapping: pageMapping, component }) => (
